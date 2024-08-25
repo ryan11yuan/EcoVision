@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVision Landing Page</title>
+    <link rel="icon" href="{{ url_for('static', filename='images/logo.png') }}" type="image/x-icon">
+    <link rel="stylesheet" href="{{ url_for('static', filename='landingstyles.css') }}">
+</head>
+<body>
+
+    <section class="hero" style="--background-image: url('{{ url_for('static', filename='images/background.png') }}');">
+        <img src="{{ url_for('static', filename='images/logo.png') }}" alt="EcoVision Logo">
+        <div class="text">
+            <h1>Welcome to EcoVision</h1>
+            <p>Your smart solution for identifying waste and recyclables, promoting eco-friendly habits for a sustainable future.</p>
+        </div>
+        <a href="{{ url_for('index') }}" class="floating-button">Go to Detector</a>
+    </section>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoVision</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<body style="--background-image: url('{{ url_for('static', filename='images/background.png') }}');">
+    <div class="container">
+        <h1>EcoVision</h1>
+        <div class="content-row">
+            <div class="video-feed">
+                <img src="{{ url_for('video_feed') }}" alt="Camera Feed">
+            </div>
+            <div class="text-content">
+                <div id="classification" class="classification-text">ITEM STATUS: UNKNOWN</div>
+                <p>This tool uses your webcam to analyze and classify items as wasteful or recyclable in real-time. Simply view the live feed on the left, and the classification result will appear on the right. For any eco-related concerns or guidance, our AI assistant is available to help you with tips and advice on making environmentally conscious decisions.</p>
+            </div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
+</body>
+</html>

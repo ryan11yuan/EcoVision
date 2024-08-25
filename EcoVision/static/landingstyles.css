@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+section.hero {
+    background: linear-gradient(
+        rgba(136, 158, 255, 0),
+        #64d3ff6f
+    ), var(--background-image) no-repeat center center/cover;
+    color: rgb(21, 60, 108);
+    text-align: center;
+    padding-top: 270px;
+    padding-bottom: 340px;
+}
+
+section.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+section.hero img {
+    height: 70px;
+    width: 70px;
+}
+
+.floating-button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: rgb(21, 60, 108);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    bottom: 0;
+}
+
+.floating-button:hover {
+    background-color: rgb(32, 81, 141);
+    transform: translateY(-10px); 
+}
+
+.floating-button:active {
+    transform: translateY(-5px); 
+}
