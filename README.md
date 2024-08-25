@@ -1,2 +1,2 @@
 # EcoVision
-EcoVision leverages real-time video analysis to instantly classify waste and recyclable materials, providing clear feedback to simplify recycling efforts.
+EcoVision is an innovative web application designed to help users identify and sort waste and recyclable materials in real-time. Utilizing advanced computer vision and machine learning technologies, EcoVision analyzes live video feeds to classify objects as wasteful or recyclable. The application overlays real-time classifications on the video feed, providing instant feedback. With its easy-to-use interface and AI assistance, EcoVision simplifies recycling and waste management, making it easier for individuals and businesses to contribute to a sustainable future.
