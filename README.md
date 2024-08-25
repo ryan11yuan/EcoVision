@@ -1,4 +1,7 @@
 # EcoVision
+
+https://github.com/user-attachments/assets/a84385dd-1332-4691-88b2-8e8fac36b5fb
+
 ## Inspiration
 As a kid, I was terrible at distinguishing between recyclable and non-recyclable materials so I would often just throw it in the waste section. However, this isn’t only an issue with children, as people of all ages still participate in improper recycling practices. Thus, leading me to build EcoVision to provide accessible and responsive tools that encourage eco-friendly practices.
 
@@ -26,7 +29,3 @@ Throughout the development process, I learned valuable lessons about combining v
 
 ## What's next for EcoVision
 Future plans for EcoVision include expanding the range of detectable materials and improving the accuracy of the AI model. We also aim to enhance the user interface and add features like personalized recycling tips and analytics. Additionally, we are exploring opportunities to integrate EcoVision with smart home systems and extend its capabilities to support more advanced waste management solutions.
-
-
-https://github.com/user-attachments/assets/a84385dd-1332-4691-88b2-8e8fac36b5fb
-
